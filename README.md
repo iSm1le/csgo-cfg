@@ -1,2 +1,2 @@
 # csgo-cfg
-My config file for csgo
+This repository was moved to [gitlab](https://gitlab.com/iSm1le/csgo-cfg).
