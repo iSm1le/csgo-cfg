@@ -1,1 +1,9 @@
--novid -tickrate 128 -refresh 75 +exec ism1le.cfg -language ism1le
+Steam > Counter-Strike: Global Offensive > Properties > General > Set Launch Options:
+-novid -tickrate 128 -refresh 75 +exec ism1le.cfg -language ism1le -d3d9ex
+
+Launch options explained:
+-novid = Remove the Valve intro that normally plays at the beginning. A must-have launch option in my opinion.
+-tickrate 128 = If you create an offline game with bots, the created server will run at tickrate 128 instead of 64.
++exec bananagaming.cfg = Makes sure my config runs every-time I start the game. Change “bananagaming” to your configs own name.
+-language bananagaming = This launch option is to launch the “Text Color Mod".
+-d3d9ex = Makes tabbing in and out from Fullscreen much faster.
